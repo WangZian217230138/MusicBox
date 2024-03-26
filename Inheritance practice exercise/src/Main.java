@@ -7,5 +7,8 @@ public class Main {
         MusicConcertEvent musicConcertEvent = new MusicConcertEvent("001", "abc", "Mars", "yibaminuo", 10, 10, 10, true, 10);
         musicConcertEvent.calculateEventCost();
         System.out.println(musicConcertEvent);
+
+        PastEvents pastEvents = new PastEvents(1234, 1234, "Paid", false, "eventCost");
+
     }
 }
